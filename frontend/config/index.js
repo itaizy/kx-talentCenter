@@ -34,7 +34,7 @@ module.exports = {
       '^/serverapi/',
     ],
     localHost: 'http://localhost:8000',
-    remoteHost: 'http://10.1.1.11:8082',
+    remoteHost: 'http://10.1.1.11:8000',
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
     // (https://github.com/webpack/css-loader#sourcemaps)

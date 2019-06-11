@@ -270,7 +270,7 @@ export default {
 <style lang="sass" scoped>
 // special switch, double-orientated.
 .switch
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   span.fa
     font-size: 2.0rem;
     cursor: pointer;
@@ -281,7 +281,7 @@ export default {
     color: rgba(51, 204, 255, 1)
 
 .form-control
-  font-size: 1.6rem
+  font-size: 1.3rem
 .list-wrapper
   width: 100%
   margin-bottom: 1rem

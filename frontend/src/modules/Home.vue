@@ -56,7 +56,7 @@ export default {
       selectedSecu: false,
       selectedWords: [],
     }) {
-      axios.get('/serverapi/fetchNews', {params: {
+      axios.get('/tc/serverapi/fetchNews', {params: {
         // from: this.searchInput.dateStart.format('yyyy-MM-dd'),
         // to: this.searchInput.dateEnd.format('yyyy-MM-dd'),
         // kws: _.join(_.reject(_.concat(this.searchInput.kws.split(' '), filter.selectedWords), _.isEmpty), ' '),

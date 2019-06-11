@@ -338,7 +338,7 @@ export default {
         // width: 46.6%
         text-align: left
       &.td-date
-        width: 9%
+        width: 13%
         text-align: center
       &.td-emotion
         width: 5%
@@ -410,7 +410,7 @@ export default {
             text-overflow: ellipsis
             white-space: nowrap
         &.td-date
-          width: 9%
+          width: 13%
           text-align: center
         &.td-emotion
           width: 5%
@@ -475,14 +475,14 @@ a.event-link
         width: 14%!important
       .td-date
         text-align: center!important
-        width: 18%!important
+        width: 21%!important
       .td-type, .td-emotion, .td-location, .td-sensitive, .td-recommend, .td-source, .td-feedback
         display: none
   .list-table-body
     .td-index
       width: 14%!important
     .td-date
-      width: 18%!important
+      width: 21%!important
     .td-type, .td-emotion, .td-location, .td-sensitive, .td-recommend, .td-source, .td-feedback
       display: none!important
 </style>
