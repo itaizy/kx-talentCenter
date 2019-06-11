@@ -15,7 +15,7 @@ def index(request):#定义一个函数，第一个参数必须是request
     return HttpResponse("Hello, world. Hello，python.")#返回HttpResonse对象，最终将这行字符显示在页面上
 
 def fetchNews(request):
-    res = Kexiedata.objects.order_by('-date')[0:10]
+    res = Kexiedata.objects.order_by('-date')[0:50]
     ans = []
     for one in res:
         ans.append({'id': one.id, 'title': one.title, 'content': one.content, 'date': one.date, 'source': one.source, 'url': one.url})
