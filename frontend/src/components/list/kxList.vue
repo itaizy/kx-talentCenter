@@ -343,7 +343,7 @@ export default {
       &.td-emotion
         width: 5%
       &.td-location
-        width: 7%
+        width: 20%
       &.td-sensitive
         width: 5%
       &.td-recommend
@@ -415,7 +415,7 @@ export default {
         &.td-emotion
           width: 5%
         &.td-location
-          width: 7%
+          width: 20%
         &.td-sensitive
           width: 5%
         &.td-recommend
